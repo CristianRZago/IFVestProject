@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/newinicio.css'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <script src='/js/inicio.js'></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top w3-hide-small">
+      <div class="w3-bar w3-xlarge w3-purple w3-opacity w3-hover-opacity-off" id="myNavbar">
+        <a href="#" class="w3-bar-item w3-button">Inicio</a>
+        <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+        <a href="#about" class="w3-bar-item w3-button">Sobre</a>
+        <a href="#Contact" class="w3-bar-item w3-button">Contato</a>
+        <a href="/usuario/Perfil" class="w3-bar-item w3-button">Perfil</a>
+      </div>
+    </div>
+      
+    <!-- Header -->
+    <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+      <div class="w3-display-bottomleft w3-padding">
+        <span class="w3-tag w3-xlarge w3-purple">Para todos os estudantes</span>
+      </div>
+      <div class="w3-display-middle w3-center">
+        <span class="w3-text-pink w3-hide-small" style="font-size:100px">Texto<br>Exemplo</span>
+        <span class="w3-text-pink w3-hide-large w3-hide-medium" style="font-size:60px"><b>Para todos<br>os estudantes</b></span>
+        <p><a href="#menu" class="w3-button w3-xxlarge w3-purple">Conhecer o site</a></p>
+      </div>
+    </header>
+    
+    <!-- Menu Container -->
+    <div class="w3-container cor w3-padding-64 w3-xxlarge" id="menu">
+      <div class="w3-content">
+      
+        <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">MENU</h1>
+        <div class="w3-row w3-center w3-border w3-border-dark-grey">
+          <a href="javascript:void(0)" onclick="openMenu(event, 'Materias');" id="myLink">
+            <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Materias</div>
+          </a>
+          <a href="javascript:void(0)" onclick="openMenu(event, 'Vestibulares');">
+            <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Vestibulares</div>
+          </a>
+          <a href="javascript:void(0)" onclick="openMenu(event, 'Noticias');">
+            <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Noticias</div>
+          </a>
+        </div>
+    
+        <div id="Materias" class="w3-container menu w3-padding-32 w3-white">
+          <h1><b>Margherita</b></h1>
+          <p class="w3-text-grey">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+          <hr>
+       
+          <h1><b>Formaggio</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$15.50</span></h1>
+          <p class="w3-text-grey">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+          
+        </div>
+    
+        <div id="Vestibulares" class="w3-container menu w3-padding-32 w3-white">
+          <h1><b>Lasagna</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">$13.50</span></h1>
+          <p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
+          <hr>
+       
+          <h1><b>Ravioli</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$14.50</span></h1>
+          <p class="w3-text-grey">Ravioli filled with cheese</p>
+          
+        </div>
+    
+    
+        <div id="Noticias" class="w3-container menu w3-padding-32 w3-white">
+          <h1><a href="/noticias/lista" class="w3-bar-item w3-button"><b>Today's Soup</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">$5.50</span> </a></h1>
+          <p class="w3-text-grey">Ask the waiter</p>
+          <hr>
+       
+          <h1><b>Bruschetta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$8.50</span></h1>
+          <p class="w3-text-grey">Bread with pesto, tomatoes, onion, garlic</p>
+          
+        </div><br>
+    
+      </div>
+    </div>
+    
+    <!-- About Container -->
+    <div class="w3-container w3-padding-64 cor2 w3-grayscale w3-xlarge" id="about">
+      <div class="w3-content">
+        <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Sobre</h1>
+        <p>O Instituto Federal de Educação, Ciência e Tecnologia de São Paulo (IFSP) que
+          busca oferecer um ensino público, gratuito e de qualidade apresenta mais de 100 anos de
+          história. No decorrer dessa longa trajetória, o Instituto teve diversas denominações, sendo a
+          primeira delas a de Escola de Aprendizes Artífices (Decreto n. 7.566, de 23 de setembro de
+          1909) presente em cada uma das capitais dos Estados da República.</p>
+        <p>Criado por Nilo Peçanha em 23 de setembro de 1909<img src="/img/Nilo_Peçanha_02.jpg" style="width:150px" class="w3-circle w3-right" alt="Chef"></p>
+        
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge" id="Contact">
+      <div class="w3-content">
+        <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contato</h1>
+        <p>Caso encontre algum problema, ou tenha uma sugestão de melhoria, você pode nos contatar através desse e-mail   </p>
+        <p>Seu contato é muito importante para nós, pois através dele nós podemos melhorar a experiencia de todos.</p>
+        <form">
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nome"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Problema"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Data e hora"value="2022-03-16T12:00"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="sugestão de melhoria"></p>
+          <p><button class="w3-button w3-light-grey w3-block" type="submit">Enviar</button></p>
+        </form>
+      </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+      <p>Insira um footer aqui :D (n sei o que escrever aqui) </p>
+    </footer>    
+    </body>
+</html>
